@@ -1,81 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>AquaTech | Página Inicial</title>
+  <title>The Monster Inside You | Página Inicial</title>
 
-    <script src="./js/sessao.js"></script>
+  <script src="./js/sessao.js"></script>
 
-    <link rel="stylesheet" href="./css/estilo.css">
-    <link rel="icon" href="./assets/icon/favicon2.ico">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="./css/estilo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="icon" href="./assets/icon/favicon2.ico">
 </head>
 
 <body>
-    <div class="header">
-      <div class="container">
-        <h1 class="titulo">AquaTech</h1>
-        <ul class="navbar">
-          <li class="agora">
-            <a href="#">Inicial</a>
-          </li>
-          <li>
-            <a href="simulador.html">Simulador</a>
-          </li>
-          <li>|</li>
-          <li>
-            <a href="login.html">Login</a>
-          </li>
-          <li>
-            <a href="cadastro.html">Cadastro</a>
-          </li>
-        </ul>
+
+  <header class="cabecalho">
+    <img class="imagens-log" src="./assets/imgs/logomoster_high,sem fundo.png" alt="Logo Monster High">
+
+    <nav class="menu">
+      <a class="menu-item" href="">Início</a>
+      <a class="menu-item" href="">Quiz</a>
+    </nav>
+
+    <div class="botoes">
+      <a class="botao-login" href="login.html">LOGIN <i class="fa-solid fa-skull"></i></a>
+      <a class="botao-cadastro" href="cadastro.html">CADASTRO <i class="fa-solid fa-book-skull"></i></a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <div class="container">
+      <div class="texto-banner">
+        <p>Na Monster High, todos os monstros são bem-vindos Aqui <br> 
+        ser diferente é o que nos torna assustadoramente incríveis.</p>
+
+        <a class="botao-principal" href="">
+          CONHEÇA OS ALUNOS <i class="fa-solid fa-ghost"></i>
+        </a>
       </div>
     </div>
-  
-    <div class="banner">
-      <div class="container">
-        <p>Preservando <span>hoje</span> para existirem <span>amanhã</span>.</p>
-      </div>
-    </div>
-  
-    <div class="social">
-      <div class="container">
-        <div class="boxes">
-          <div class="box">
-            <img src="assets/imgs/planet-earth_color.png">
-            <h4>Missão</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, quas cupiditate asperiores provident magnam
-              vitae illum iusto fugiat atque deleniti nulla sed iure suscipit, laborum, aliquid accusantium cum dicta
-              minima.</p>
-          </div>
-          <div class="box">
-            <img src="assets/imgs/lightbulb_color.png">
-            <h4>Visão</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, quas cupiditate asperiores provident magnam
-              vitae illum iusto fugiat atque deleniti nulla sed iure suscipit, laborum, aliquid accusantium cum dicta
-              minima.</p>
-          </div>
-          <div class="box">
-            <img src="assets/imgs/growth_color.png">
-            <h4>Valores</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, quas cupiditate asperiores provident magnam
-              vitae illum iusto fugiat atque deleniti nulla sed iure suscipit, laborum, aliquid accusantium cum dicta
-              minima.</p>
+  </section>
+
+  <div class="social">
+    <div class="container">
+      <div class="boxes">
+
+        <div class="box box-info">
+          <img src="./assets/imgs/IMG_8086.jpeg" alt="foto minha e da minha prima">
+
+          <div>
+            <h4>Por que criei este site?</h4>
+            <p>
+              Monster High marcou minha infância porque era algo que me conectava à minha prima e criava momentos especiais que compartilhávamos juntas.
+              Além disso, as personagens me ajudavam a explorar minhas próprias características e a entender que cada pessoa é única do seu jeito.
+              Por isso, decidi transformar essa lembrança tão importante em um projeto que une minha paixão pelo desenho com a tecnologia.
+            </p>
           </div>
         </div>
-      </div>
-    </div>
-  
-    <div class="footer">
-      <div class="container">
-        <h4>Feito com amor por aluno &hearts; SPTech &copy; 2023-2026</h4>
-      </div>
-    </div>
-  </body>
 
+      </div>
+    </div>
+  </div>
+
+  <div class="funcionalidades">
+    <div class="container">
+      <div class="boxes">
+
+        <div class="box">
+          <i class="fa-solid fa-circle-question"></i>
+          <h4>Quiz</h4>
+          <p>Responda perguntas e descubra qual personagem mais combina com sua personalidade.</p>
+        </div>
+
+        <div class="box">
+          <i class="fa-solid fa-chart-column"></i>
+          <h4>Dashboard</h4>
+          <p>Acompanhe seus resultados através de dados e gráficos personalizados.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <img class="imagens-log" src="./assets/imgs/logomoster_high,sem fundo.png" alt="Logo Monster High">
+    <h4>Feito com amor por Isabella &hearts; SPTech &copy; 2026</h4>
+    <div class="footer-titulo">SIGA NAS PLATAFORMAS
+    <div class="icones">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
 </html>
